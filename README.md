@@ -1,19 +1,20 @@
 
+# structure
 
-# 소스
+## source
 /src
     /main
         /scala
             /XXX.scala
 
 
-# build.sbt
+## build.sbt
 ./build.sbt
 
 
-# plugins.sbt
+## plugins.sbt
 ./project/build.sbt
 
 
-# run
+## run
 sbt gen-idea
