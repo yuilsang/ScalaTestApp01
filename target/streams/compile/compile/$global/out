@@ -1,0 +1,32 @@
+[debug] 
+[debug] Initial source changes: 
+[debug] 	removed:Set(/Users/ilzzang/Work/scala/example/src/main/scala/Test.scala, /Users/ilzzang/Work/scala/example/src/main/scala/Hello.scala)
+[debug] 	added: Set(/Users/ilzzang/Work/scala/example/src/main/scala/Animal.scala, /Users/ilzzang/Work/scala/example/src/main/scala/People.scala, /Users/ilzzang/Work/scala/example/src/main/scala/Voice.scala)
+[debug] 	modified: Set(/Users/ilzzang/Work/scala/example/src/main/scala/TestApp.scala)
+[debug] Removed products: Set()
+[debug] Modified external sources: Set()
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated sources: Set(/Users/ilzzang/Work/scala/example/src/main/scala/Animal.scala, /Users/ilzzang/Work/scala/example/src/main/scala/Hello.scala, /Users/ilzzang/Work/scala/example/src/main/scala/TestApp.scala, /Users/ilzzang/Work/scala/example/src/main/scala/Voice.scala, /Users/ilzzang/Work/scala/example/src/main/scala/Test.scala, /Users/ilzzang/Work/scala/example/src/main/scala/People.scala)
+[debug] 
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set()
+[debug] 	binary dep: Set()
+[debug] 	external source: Set()
+[debug] All initially invalidated sources: Set(/Users/ilzzang/Work/scala/example/src/main/scala/Animal.scala, /Users/ilzzang/Work/scala/example/src/main/scala/Hello.scala, /Users/ilzzang/Work/scala/example/src/main/scala/TestApp.scala, /Users/ilzzang/Work/scala/example/src/main/scala/Voice.scala, /Users/ilzzang/Work/scala/example/src/main/scala/Test.scala, /Users/ilzzang/Work/scala/example/src/main/scala/People.scala)
+[debug] Recompiling all 4 sources: invalidated sources (6) exceeded 50.0% of all sources
+[info] Compiling 4 Scala sources to /Users/ilzzang/Work/scala/example/target/scala-2.10/classes...
+[debug] Getting compiler-interface from component compiler for Scala 2.10.3
+[debug] Getting compiler-interface from component compiler for Scala 2.10.3
+[debug] Running cached compiler 7f21c93c, interfacing (CompilerInterface) with Scala compiler version 2.10.3
+[debug] Calling Scala compiler with arguments  (CompilerInterface):
+[debug] 	-bootclasspath
+[debug] 	/Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/jre/lib/JObjC.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/jre/classes:/Users/ilzzang/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.3.jar
+[debug] 	-classpath
+[debug] 	/Users/ilzzang/Work/scala/example/target/scala-2.10/classes
+[debug] Scala compilation took 0.351112 s
+[debug] Invalidated by transitive public inheritance: Set(/Users/ilzzang/Work/scala/example/src/main/scala/Animal.scala, /Users/ilzzang/Work/scala/example/src/main/scala/Hello.scala, /Users/ilzzang/Work/scala/example/src/main/scala/Voice.scala, /Users/ilzzang/Work/scala/example/src/main/scala/Test.scala, /Users/ilzzang/Work/scala/example/src/main/scala/People.scala)
+[debug] Invalidated by direct dependency: Set(/Users/ilzzang/Work/scala/example/src/main/scala/TestApp.scala)
+[debug] New invalidations:
+[debug] 	Set(/Users/ilzzang/Work/scala/example/src/main/scala/TestApp.scala)
+[debug] Previously invalidated, but (transitively) depend on new invalidations:
+[debug] 	Set()
